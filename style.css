@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: auto;
+    background-color: #F8F9FA;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 120px;
+}
+
+.nav{
+    height: 120px;
+    /* background-color: #2a3042; */
+    background-color: #36394c;
+    padding: 15px 110px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.veltrix{
+    color: white;
+    font-size: 20px;
+}
+
+.navline1{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #36394C; */
+    align-items: center;
+    color: white;
+    width: 100%;
+    gap: 30px;
+}
+
+.right_align{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.search{
+    background-color: #353e53;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    width: 180px;
+    color: white;
+}
+
+.search-container{
+    background-color: #353e53;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-icon{
+    color: #9f9faa;
+}
+
+#lang{
+    background-color: #36394c;
+    color: #9f9faa;
+    outline: none;
+    border: none;
+}
+
+.navline2{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    /* background-color: #2A3142; */
+}
+
+.navline2 a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    transition: color 0.3s;
+}
+
+.afternav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 110px;
+}
+
+.left{
+    color: #36394c;
+    font-size: 13px;
+
+}
+
+.afternav button{
+    width: 100px;
+    height: 35px;
+    border-radius: 3.5px;
+    border: none;
+    background-color: #626ED4;
+    color: white;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    /* align-content: flex-start; */
+    gap: 5px;
+    margin: 0 110px;
+}
+
+.b_block{
+    height: 160px;
+    width: 240px;
+    background-color: #626ED4;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+.order .icon{
+    background-color: #7984DA;
+    height: 52px;
+    width: 48px;
+    border-radius: 3px;
+}
+
+.b_block h3{
+    color: #B1ABE1;
+}
+
+.b_block p{
+    color: white;
+    font-size: 18px;
+}
+
+.fa-arrow-up{
+    color: #02A4A8 !important;
+}
