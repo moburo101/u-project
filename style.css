@@ -11,6 +11,11 @@
     font-size: 14px;
 }
 
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+
 .grid{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -223,6 +228,20 @@ body{
     width: 240px;
     height: auto;
     padding: 20px;
-    background-color: #FFFFFF;
-    color: #5B626B;
+    background-color: #FFFFFF !important;
+    color: #5B626B !important;
+}
+
+.sal_an p{
+    font-size: 13px;
+}
+
+.sal_an img{
+    width: 110px;
+    height: 80px;
+}
+
+.top{
+    padding-top: 14px;
+    border-bottom: solid 1px #E9ECEF;
 }
