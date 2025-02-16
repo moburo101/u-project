@@ -154,6 +154,12 @@ body{
     height: 52px;
     width: 48px;
     border-radius: 3px;
+    padding: 9px;
+}
+
+.icon img{
+    height: auto;
+    width: 35px;
 }
 
 /* .revenue .icon{
