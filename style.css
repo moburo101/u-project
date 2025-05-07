@@ -108,6 +108,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 20px 110px;
+    width: 847px;
 }
 
 .left{
@@ -250,4 +251,52 @@ body{
 .top{
     padding-top: 14px;
     border-bottom: solid 1px #E9ECEF;
+}
+
+@media only screen and (min-width:1200px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .sec2{
+        gap: 20px;
+    }
+
+    .sec3_g1{
+        gap: 0;
+        width: 675px;
+    }
+
+    .b_block p{
+        font-size: 18px;
+    }
+
+    .sal_an{
+        width: 178px;
+    }
+
+    /* .afternav{
+        padding-right: 144px;
+    } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .navline2 a{
+    font-size: 11px;
+    }   
+
+    .afternav{
+        padding-right: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
 }
