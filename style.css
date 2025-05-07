@@ -108,7 +108,8 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 20px 110px;
-    width: 847px;
+    /* width: 847px; */
+    width: 1041px;
 }
 
 .left{
@@ -253,7 +254,10 @@ body{
     border-bottom: solid 1px #E9ECEF;
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (max-width:1200px) {
+    .afternav{
+        width: 980px;
+    }
 
 }
 
@@ -276,9 +280,9 @@ body{
         width: 178px;
     }
 
-    /* .afternav{
-        padding-right: 144px;
-    } */
+    .afternav{
+        width: 847px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
